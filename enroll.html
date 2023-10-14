@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enroll Now</title>
+    <link rel="stylesheet" href="enroll-styles.css">
+</head>
+<body>
+    <h1>Enroll Now</h1>
+    <p>Fill out the form below to enroll in our courses.</p>
+
+    <form action="enroll.php" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="course">Select Course:</label>
+        <select id="course" name="course">
+            <option value="course1">Course 1</option>
+            <option value="course2">Course 2</option>
+            <option value="course3">Course 3</option>
+        </select>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
