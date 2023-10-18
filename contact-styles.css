@@ -1,7 +1,10 @@
 body {
+    background-image: url('https://t3.ftcdn.net/jpg/03/44/67/38/360_F_344673825_6fU6IORyipkYpfU1mg2vmxtHxDToUO6Q.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f2f2f2;
+    <!background-color: #f2f2f2;>
     margin: 0;
     padding: 0;
 }
